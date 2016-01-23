@@ -9,7 +9,7 @@ class frontend_controller extends CI_Controller {
 
 	public function index()
 	{
-		$data['main_content'] = 'frontend/StoreKeeper';
+		$data['main_content'] = 'frontend/Supervisor';
 		$this -> load -> view('includes/templates',$data);
 	}
 
