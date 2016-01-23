@@ -1,0 +1,12 @@
+body
+{
+	font-size:14px;	
+}
+.custom_nav{
+	padding: 15px;
+	background-color: #F38500;
+}
+
+.custom_nav h1,h3{
+    margin: 0;
+}
