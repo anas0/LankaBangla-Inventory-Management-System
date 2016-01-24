@@ -13,7 +13,7 @@ class frontend_controller extends CI_Controller {
 		$this -> load -> view('includes/templates',$data);
 	}
 
-	public function Supervisor()
+	/*public function Supervisor()
 	{
 		$data['main_content'] = 'frontend/Supervisor';
 		$this -> load -> view('includes/templates',$data);
@@ -41,6 +41,6 @@ class frontend_controller extends CI_Controller {
 	{
 		$data['main_content'] = 'frontend/StoreKeeper';
 		$this -> load -> view('includes/templates',$data);
-	}
+	}*/
   
 }

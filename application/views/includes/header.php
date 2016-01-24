@@ -14,15 +14,12 @@
     <header>
         <nav class="navbar navbar-default custom_nav">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <a href="#"><img src="<?php echo base_url()."assets/images/logo.png"; ?>" alt="Logo" /></a>		
-                    </div>
-                    <div class="col-md-8" style="color: white; text-align: center;"><h1>Inventory Management System</h1><br>
-                    <h3>(Supervisor)</h3>
-                    </div>                    
+                <div class="col-md-3">
+                    <a href="#"><img src="<?php echo base_url()."assets/images/logo.png"; ?>" alt="Logo" /></a>		
                 </div>
-
+                <div class="col-md-8" style="color: white; text-align: center;"><h1>Inventory Management System</h1><br>
+                <h3>(<!-- <?php var_dump($description);?> -->)</h3>
+                </div> 
             </div>
         </nav>
     </header>
