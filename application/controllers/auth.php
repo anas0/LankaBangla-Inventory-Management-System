@@ -40,12 +40,12 @@ class Auth extends CI_Controller {
 		}
 
 		elseif($this->ion_auth->in_group('GIS')){
-			/*$this->data['users'] = $this->ion_auth->users()->result();
+			$this->data['users'] = $this->ion_auth->users()->result();
 			foreach ($this->data['users'] as $k => $user) {
 					
-				$this->data['users'][$k]->groups = $this->ion_auth->get_users_groups($user->id)->result_array();
+				$this->data['users'][$k]->groups = $this->ion_auth->get_users_groups($user->id)->row_array();
 			}
-			$this->data['discription'] = $this->data['users'][$k]->groups;*/
+			$this->data['discription'] = $this->data['users'][$k]->groups;
 			$this->data['main_content'] ='frontend/Gis';
 			$this->_render_page('includes/templates', $this->data);
 		}

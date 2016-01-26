@@ -18,7 +18,7 @@
                     <a href="#"><img src="<?php echo base_url()."assets/images/logo.png"; ?>" alt="Logo" /></a>		
                 </div>
                 <div class="col-md-8" style="color: white; text-align: center;"><h1>Inventory Management System</h1><br>
-                <h3>(<!-- <?php var_dump($description);?> -->)</h3>
+                <h3>(<?= $discription['description'];?>)</h3>
                 </div> 
             </div>
         </nav>
